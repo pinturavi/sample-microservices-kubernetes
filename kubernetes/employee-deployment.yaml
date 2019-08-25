@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: employee
-        image: pinturavi/employee:1.0
+        image: docker.io/pinturavi/employee:1.0
         ports:
         - containerPort: 8080
         env:

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: department
-        image: pinturavi/department:1.0
+        image: docker.io/pinturavi/department:1.0
         ports:
         - containerPort: 8080
         env:
